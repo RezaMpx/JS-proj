@@ -29,3 +29,10 @@ div{display:inline}
         document.getElementById(r).remove()
 
     }
+
+    while (b < 133) {
+        document.getElementById("d").innerHTML += "<img src=\"1 (" + b + ").jpg\" alt=\"" +
+            b + "\" id=\"img" + b + "\">" +
+            "<button onclick=\"C(" + b + ")\"> حــذف " + b + " </button><br />";
+        b++;
+    }
